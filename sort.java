@@ -57,7 +57,14 @@ public class sort{
 
     return result;
     }
-
+    
+    /**
+ * Sorts an array in place using the quicksort algorithm.
+ *
+ * @param arr the array to be sorted
+ * @param low the starting index
+ * @param high the ending index
+ */
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             int pi = partition(arr, low, high);
