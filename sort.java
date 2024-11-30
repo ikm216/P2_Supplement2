@@ -35,7 +35,7 @@ public class sort{
     return merge(mergeSort(left), mergeSort(right));
 }
 
-private static int[] merge(int[] left, int[] right) {
+    private static int[] merge(int[] left, int[] right) {
     int[] result = new int[left.length + right.length];
     int i = 0, j = 0, k = 0;
 
@@ -57,4 +57,6 @@ private static int[] merge(int[] left, int[] right) {
 
     return result;
     }
+
+    
 }

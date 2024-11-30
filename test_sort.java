@@ -17,4 +17,12 @@ public class test_sort {
         Assert.assertArrayEquals(test_arr, sort_arr);
     }
 
+    @Test
+    public void testQuick(){
+        int [] arr = {9, 7, 3, 6, 28};
+        int [] test_arr = {3, 6, 7, 9, 28};
+        sort.quickSort(arr, 0, arr.length - 1);
+        Assert.assertArrayEquals(test_arr, arr);
+    }
+
 }
