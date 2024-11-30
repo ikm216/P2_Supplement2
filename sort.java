@@ -17,7 +17,12 @@ public class sort{
             }
         }
     }
-
+    /**
+ * Sorts an array using the merge sort algorithm.
+ *
+ * @param array the array to be sorted
+ * @return a new sorted array
+ */
     public static int [] mergeSort(int [] arr){
         if (arr.length <= 1) {
         return arr;
